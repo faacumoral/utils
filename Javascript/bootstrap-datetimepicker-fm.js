@@ -739,7 +739,7 @@
                         currentDate: fecha la cual estoy creado
                         viewDate: fecha actual
                     */
-                    var customStyle = "";
+                    var customStyle = "cursor: pointer;";
                     if (currentDate.format('MM') != viewDate.format('MM')) {
                         customStyle += "color: #E0E0E0;"; // para que fechas de mes pasado queden grises
                     } else if (!isValid(currentDate, 'd')) {
